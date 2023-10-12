@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding-top: 10px;
+}
+nav .logo{
+    font-size: 40px;
+    background-image: linear-gradient(to right, blue, blueviolet, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: #222121;
+    /* font-weight: bold; */
+    font-weight: 400;
+    padding: 0px 8px;
+}
+nav ul li a:hover{
+  background-image: linear-gradient(to right, blue, blueviolet, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+#home{
+    /* height: calc(100vh-40px); */
+    display: flex;
+    align-items: center;
+}
+.section{
+  color: rgb(46, 44, 44);
+    padding: 220px;
+}
+.section h4{
+     font-size: 40px;
+}
+.section h1{
+    font-weight: 780;
+    font-size: 50px;
+}
+.section p{
+     font-weight: bold;
+}
+.button{
+    margin-right: 20px;
+    text-decoration: none;
+    color: blueviolet;
+    margin-top: 15px;
+    border-color: blueviolet;
+    border-style: solid;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .button:hover{
+    background-color: blueviolet;
+    color: white;
+
+  }
+  /* About */
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-options {
+    display: none;
+    position: absolute;
+  }
+  .dropdown-options a{
+    text-decoration: none;
+    color: #222121;
+    font-weight: 400;
+    padding: 0px 8px;
+  }
+  .dropdown-options a:hover{
+  background-image: linear-gradient(to right, blue, blueviolet, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+  .dropdown:hover .dropdown-options {
+    display: block;
+    background-color:rgb(222, 228, 228);
+  }
+  #mission{
+    /* height: calc(100vh-40px); */
+    display: flex;
+    align-items:flex-start;
+}
+.leftdiv{
+  color: rgb(70, 66, 66);
+    padding: 120px;
+}
+.leftdiv h1{
+    font-weight: 780;
+    font-size: 50px;
+}
+.leftdiv p{
+     font-weight: bold;
+     text-align: justify;
+}
+.rightdiv img{
+  height: 300px;
+  width: 500px;
+}
+  /* Contact Form  */
+  #contact{
+    display: flex;
+    padding: 10px 200px;
+    align-items:flex-start;
+  }
+  .leftdiv{
+    width: 48%;
+    float: left;
+  }
+  .leftdiv p{
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .rightdiv{
+    width: 48%;
+    float: right;
+  }
+  .rightdiv p{
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 90%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-google{
+    background: #d44638;
+    color: white;
+}
+.fa-linkedin {
+    background: #0072b1;
+    color: white;
+  }
+  .fa-instagram {
+     background-image: linear-gradient(to bottom, blue, blueviolet,pink, red,orange,yellow);
+    color: white;
+}
+.fa-youtube{
+    background: #CD201F;
+    color: white;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: blueviolet;
+    color: white;
+}

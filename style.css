@@ -106,19 +106,36 @@ nav ul li a:hover{
 }
 .leftdiv{
   color: rgb(70, 66, 66);
-    padding: 120px;
+    /* padding: 120px; */
 }
 .leftdiv h1{
     font-weight: 780;
     font-size: 50px;
 }
 .leftdiv p{
-     font-weight: bold;
+     /* font-weight: bold; */
      text-align: justify;
 }
 .rightdiv img{
   height: 300px;
   width: 500px;
+}
+.storysection{
+  /* width: 100%; */
+  /* height: calc(100vh-40px); */
+  display: flex;
+  align-items:flex-start;
+}
+.heading{
+  /* width: 100%; */
+  font-weight: 780;
+    font-size: 50px;
+    text-align: center;
+    /* background-color: #222121; */
+}
+.storysection .rightdiv p{
+  /* font-weight: bold; */
+  text-align: justify;
 }
   /* Contact Form  */
   #contact{
@@ -194,4 +211,50 @@ input[type=text], select, textarea {
 input[type=submit]:hover {
   background-color: blueviolet;
     color: white;
+}
+/* Footer  */
+footer
+{
+  /* padding:450px ; */
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  background-color: #d4d3d3;
+  text-align: justify;
+}
+.container .row{
+  display: flex;
+  align-items: center;
+}
+.container .row .col{
+  width: 48%;
+  padding: 0px 200px;
+}
+.footer hr
+{
+  border-top-color:#070606;
+  opacity:0.5
+}
+
+footer h6
+{
+  color:#3b3a3a;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+footer li{
+  list-style: none;
+}
+footer a
+{text-decoration:none;
+  color:#737373;
+}
+footer a:hover
+{
+  background-image: linear-gradient(to right, blue, blueviolet, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  
 }
